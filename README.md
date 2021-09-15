@@ -6,8 +6,9 @@ To use this tool in **Terminal**
 2. Add a Virtual Environment `python3 -m venv venv` **(If needed)**
 3. Activate the Virtual Environment `source venv/bin/activate` **(If needed)**
 4. change the directory using `cd Pratibha-Voice-Assistant`. 
-5. install the libraries using `pip install -r requirements.txt`.
-6. run the code using `python3 pratibha.py`.
+5. install the libraries using `pip install -r requirements.txt` for windows.
+6. install the libraries using `pip3 install -r requirements.txt` for Raspberry pi.
+7. run the code using `python3 pratibha.py`.
 
 ## Libraries and API's used
 
@@ -15,7 +16,7 @@ To use this tool in **Terminal**
 2. pyttsx3
 3. pyaudio for windows (if the pip was unable to install, consider this website https://www.lfd.uci.edu/~gohlke/pythonlibs/ and install PyAudio wheel file)
 4. **additional** pyaudio for raspberry pi  `sudo apt-get install python-pyaudio python3-pyaudio`.  
-5. wolframalpha (get your api_id from here https://account.wolfram.com/login/oauth2/sign-in and paste it in the required variables)
+5. wolframalpha (get your api_id here https://account.wolfram.com/login/oauth2/sign-in and paste it in the required variables)
 6. requests
 7. datetime
 8. time
