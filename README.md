@@ -28,7 +28,7 @@ To use this tool in **Terminal**
 3. Study with me - Focus mode
 4. Simple Calculator
 
-**Basic Commands:**
+**Basic Commands:** \n
 **[category] + [subject]** for wikipedia search.
 **[what/who] + [is] + [subject]** for direct search.
 **[study]** for study with me mode.
