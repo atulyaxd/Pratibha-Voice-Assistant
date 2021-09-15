@@ -28,10 +28,10 @@ To use this tool in **Terminal**
 3. Study with me - Focus mode
 4. Simple Calculator
 
-**Basic Commands:** \n
-**[category] + [subject]** for wikipedia search.
-**[what/who] + [is] + [subject]** for direct search.
-**[study]** for study with me mode.
+**Basic Commands:** <br />
+**[category] + [subject]** for wikipedia search.<br />
+**[what/who] + [is] + [subject]** for direct search.<br />
+**[study]** for study with me mode.<br />
 **[calculate] + [problem]** for calculator
 
 ## Configuration
