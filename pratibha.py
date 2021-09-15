@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
         if "calculate" in query:
              
-            app_id = "8U4UJA-GG7RAH45KU"
+            app_id = "your_api"
             client = wolframalpha.Client(app_id)
             indx = query.lower().split().index('calculate')
             query = query.split()[indx + 1:]
@@ -76,7 +76,7 @@ if __name__ == "__main__":
              
             # Use the same API key
             # that we have generated earlier
-            client = wolframalpha.Client("8U4UJA-GG7RAH45KU")
+            client = wolframalpha.Client("your_api")
             res = client.query(query)
              
             try:
@@ -110,13 +110,7 @@ if __name__ == "__main__":
                             t -= 1 
                         speak("Work Time!!")
                 pomodoror()           
-
-        """if "Pratibha" in query:
-            speak("Pratibha (Hindi : प्रतिभा) is a Hindu Sanskrit Indian feminine given name, which means genius.")
-            speak("As “Pratibha” the name suggests, i am going to be your learning fellow, i am a web-browser based voice assistant that works on python3.")
-            speak("I retrieve the required informations through the requests sent through APIs and the data received in the text format,  I convert it into speech. ")
-            speak("I am capable of giving information for any specific proper nouns. For example, poet Rabindranath Tagore, monument Taj Mahal etc.")"""
-        
+                
         if "exit" in query:
             speak("Bye")
             exit()            
