@@ -76,7 +76,7 @@ if __name__ == "__main__":
              
             # Use the same API key
             # that we have generated earlier
-            client = wolframalpha.Client("your_api")
+            client = wolframalpha.Client(app_id)
             res = client.query(query)
              
             try:
