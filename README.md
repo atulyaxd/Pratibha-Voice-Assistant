@@ -20,6 +20,19 @@ To use this tool in **Terminal**
 7. datetime
 8. time
 
+## Basic Features and Commands
+
+1. Direct wikipedia Search
+2. Direct google search
+3. Study with me - Focus mode
+4. Simple Calculator
+
+**Basic Commands:**
+**[category] + [subject]** for wikipedia search.
+**[what/who] + [is] + [subject]** for direct search.
+**[study]** for study with me mode.
+**[calculate] + [problem]** for calculator
+
 ## Configuration
 
 If you are using this in windows then no extra configuration is needed, but if you are planning to use this in raspberry pi then kindly configure the Raspberry Pi for more context consider https://developers.google.com/assistant/sdk/guides/service/python/embed/audio for configuring Raspberry Pi 3
