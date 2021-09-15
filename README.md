@@ -13,3 +13,4 @@ To use this tool in **Terminal**
 1. SpeechRecognition 
 2. pyttsx3
 3. pyaudio (if the pip was unable to install, consider this website https://www.lfd.uci.edu/~gohlke/pythonlibs/ and install PyAudio wheel file)
+4. wolframalpha (get your api_id from here https://account.wolfram.com/login/oauth2/sign-in and paste it in the required variables)
