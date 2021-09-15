@@ -1,3 +1,8 @@
+"""
+Project : Pratibha-Voice-Assistant
+Author : Atulya Bharat @imatulya21
+Version : 1.0
+"""
 import speech_recognition as sr
 import pyttsx3
 import datetime
