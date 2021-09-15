@@ -1,7 +1,6 @@
 pyttsx3
 SpeechRecognition
 wolframalpha
-PyAudio
 requests
 wikipedia
-pyaudio
+PyAudio
