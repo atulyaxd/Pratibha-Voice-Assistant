@@ -2,7 +2,7 @@
 
 To use this tool in **Terminal**
 
-1. clone repository using `git clone https://github.com/imatulya21/Pratibha-Voice-Assistant.git`. 
+1. clone repository using `git clone https://github.com/itsatulya/Pratibha-Voice-Assistant.git`. 
 2. Add a Virtual Environment `python3 -m venv venv` **(If needed)**
 3. Activate the Virtual Environment `source venv/bin/activate` **(If needed)**
 4. change the directory using `cd Pratibha-Voice-Assistant`. 
