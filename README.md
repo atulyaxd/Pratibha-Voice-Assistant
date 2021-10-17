@@ -4,7 +4,7 @@ A simple voice operated python assistant for simple tasks and time-pass.
 
 ## for windows
 * clone my repo
-* install the requirements, `pip install pip install -r requirements.txt`.
+* install the requirements, `pip install -r requirements.txt`.
 * for **pyaudio** download the .whl file [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and install it.
 * explore the [code](https://github.com/itsatulya/Pratibha-Voice-Assistant/blob/d79340004db1be5360e550fdaf26a934b9f425eb/pratibha.py), Understood ?
 * run the code, `python pratibha.py`.
