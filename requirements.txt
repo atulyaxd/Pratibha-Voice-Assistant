@@ -3,4 +3,3 @@ SpeechRecognition
 wolframalpha
 requests
 wikipedia
-PyAudio
