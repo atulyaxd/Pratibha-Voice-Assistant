@@ -2,6 +2,14 @@
 
 A simple voice operated python assistant for simple tasks and time-pass.
 
+## Libraries
+* [Pyttsx3](https://pypi.org/project/pyttsx3/)
+* [Speech Recognition](https://pypi.org/project/SpeechRecognition/)
+* [PyAudio](https://pypi.org/project/PyAudio/)
+* [Wolfram Alpha](https://pypi.org/project/wolframalpha/)
+* [Wikipedia](pip install wikipedia)
+* [Requests](https://pypi.org/project/requests/)
+
 ## for windows
 * clone my repo
 * change the directory to root folder, `cd Pratibha-Voice-Assistant`.
