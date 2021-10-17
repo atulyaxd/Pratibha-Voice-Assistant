@@ -7,7 +7,7 @@ A simple voice operated python assistant for simple tasks and time-pass.
 * [Speech Recognition](https://pypi.org/project/SpeechRecognition/)
 * [PyAudio](https://pypi.org/project/PyAudio/)
 * [Wolfram Alpha](https://pypi.org/project/wolframalpha/)
-* [Wikipedia](pip install wikipedia)
+* [Wikipedia](https://pypi.org/project/wikipedia/)
 * [Requests](https://pypi.org/project/requests/)
 
 ## for windows
