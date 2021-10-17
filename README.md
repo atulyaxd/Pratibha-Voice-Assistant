@@ -4,10 +4,23 @@ A simple voice operated python assistant for simple tasks and time-pass.
 
 ## for windows
 * clone my repo
+* change the directory to root folder, `cd Pratibha-Voice-Assistant`.
 * install the requirements, `pip install -r requirements.txt`.
 * for **pyaudio** download the .whl file [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and install it.
 * explore the [code](https://github.com/itsatulya/Pratibha-Voice-Assistant/blob/d79340004db1be5360e550fdaf26a934b9f425eb/pratibha.py), Understood ?
 * run the code, `python pratibha.py`.
+
+## for raspberry pi
+* clone my repo
+* change the directory to root folder, `cd Pratibha-Voice-Assistant`.
+* install the requirements, `pip3 install -r requirements.txt`.
+* installing **pyaudio**:
+    * `sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0`
+    * `sudo apt-get install ffmpeg libav-tools`
+    * `sudo pip install pyaudio` 
+* setup your microphone and speaker using [Google Dev Docs](https://developers.google.com/assistant/sdk/guides/service/python/embed/audio).
+* explore the [code](https://github.com/itsatulya/Pratibha-Voice-Assistant/blob/d79340004db1be5360e550fdaf26a934b9f425eb/pratibha.py), Understood ?
+* run the code, `python pratibha.py`
 
 ## Functions
 * Wikipedia search - **[category] + [subject]**, ex: monument Taj Mahal
