@@ -18,5 +18,5 @@ A simple voice operated python assistant for simple tasks and time-pass.
 ## Additional
 * generate your [wolframaplha](https://www.wolframalpha.com/) api id [here](https://account.wolfram.com/login/oauth2/sign-in) and paste it in the called variable, here **api_id**.
 * **Virtual Environment** : 
-   * `python3 -m venv venv` for installion, 
+   * `python3 -m venv venv` for installation, 
    * `source venv/bin/activate` for activation.  
