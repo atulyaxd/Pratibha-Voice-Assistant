@@ -41,3 +41,5 @@ A simple voice operated python assistant for simple tasks and time-pass.
 * **Virtual Environment** : 
    * `python3 -m venv venv` for installation, 
    * `source venv/bin/activate` for activation.  
+
+*Feel free to use my code, don't forget to mention credit.
