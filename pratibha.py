@@ -70,6 +70,10 @@ if __name__ == "__main__":
        
         elif "how are you" in query:
             speak("I'm fine, how about you")
+        #update: Access To YouTube
+        elif "play" in query:
+            topic = query.split('play')[1]
+            pywhatkit.playonyt(topic)      
 
         elif " " in query:
             query= query.replace("wikipedia","")
