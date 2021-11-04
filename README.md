@@ -36,6 +36,7 @@ A simple voice operated python assistant for simple tasks and time-pass.
 * Google search - **[subject]**, ex: Taj Mahal
 * Study timer - **[study]**
 * Calculator - **[calculate] + [problem]**, ex: add 2 + 2
+* YouTube Video - **[play] + [video title]**, ex: play mai nikla gadi leke
 
 ## Additional
 * generate your [wolframaplha](https://www.wolframalpha.com/) api id [here](https://account.wolfram.com/login/oauth2/sign-in) and paste it in the called variable, here **api_id**.
