@@ -1,5 +1,4 @@
 pyttsx3
-pywhatkit
 SpeechRecognition
 wolframalpha
 requests
