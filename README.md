@@ -9,7 +9,7 @@ A simple voice operated python assistant for simple tasks and time-pass.
 * [Wolfram Alpha](https://pypi.org/project/wolframalpha/)
 * [Wikipedia](https://pypi.org/project/wikipedia/)
 * [Requests](https://pypi.org/project/requests/)
-* [pywhatkit](https://pypi.org/project/pywhatkit/)
+
 
 ## for windows
 * clone my repo
