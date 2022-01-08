@@ -9,7 +9,6 @@ import datetime
 import wikipedia
 import time
 import wolframalpha
-import requests
 
 engine = pyttsx3.init()
 engine.setProperty("rate",178)#speed of speech
