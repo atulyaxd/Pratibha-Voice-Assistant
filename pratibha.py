@@ -1,6 +1,6 @@
 """
 Project : Pratibha-Voice-Assistant
-Author : Atulya Bharat @imatulya21
+Author : Atulya Bharat @itsatulya
 Version : 1.0
 """
 import speech_recognition as sr
