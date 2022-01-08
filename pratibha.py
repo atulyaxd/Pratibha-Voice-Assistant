@@ -27,9 +27,10 @@ def takeCommand():
     try:
         speak("recognising")
         query = r.recognize_google(audio)
-        print(query)
+        print(f"User: {query}")
     
     except Exception as e:
+        print("Pratibha: Unable to get you, kindly repeat your words ...")
         speak("Unable to get you, kindly repeat your words ...")
         return "None"
 
@@ -45,10 +46,13 @@ def greet():
     hour = int(datetime.datetime.now().hour)
 
     if hour>=0 and hour<12:
+            print("Pratibha: Hello! Good Morning")
             speak("hello Good Morning")
     elif hour>=12 and hour<18:
+            print("Pratibha: Hello! Good Afternoon")
             speak("hello Good Afternoon")
     else:
+            print("Pratibha: Hello! Good Evening")
             speak("hello Good Evening")
 
 
@@ -59,25 +63,23 @@ if __name__ == "__main__":
 
         if "calculate" in query:
              
-            app_id = "your_api"
+            app_id = "your_apiid"
             client = wolframalpha.Client(app_id)
             indx = query.lower().split().index('calculate')
             query = query.split()[indx + 1:]
             res = client.query(' '.join(query))
             answer = next(res.results).text
-            print("The answer is " + answer)
+            print(f"Pratibha: The answer is {answer}")
             speak("The answer is " + answer)
        
         elif "how are you" in query:
+            print("Pratibha: I'm fine, how about you?")
             speak("I'm fine, how about you")
-        #update: Access To YouTube
-        elif "play" in query:
-            topic = query.split('play')[1]
-            pywhatkit.playonyt(topic)      
 
         elif " " in query:
             query= query.replace("wikipedia","")
             results=wikipedia.summary(query, sentences=3)
+            print(f"Pratibha: {results}")
             speak("According to Wikipedia")
             speak(results)
 
@@ -87,10 +89,11 @@ if __name__ == "__main__":
             res = client.query(query)
              
             try:
-                print (next(res.results).text)
+                result = next(res.results).text
+                print(f"Pratibha: {results}")
                 speak (next(res.results).text)
             except StopIteration:
-                print("no results")
+                print("Pratibha: no results")
                 query = takeCommand().lower()     
 
         elif "study" in query:
@@ -101,23 +104,25 @@ if __name__ == "__main__":
                         while t: 
                             mins = t // 60 
                             secs = t % 60
-                            timer = '{:02d}:{:02d}'.format(mins, secs) 
+                            timer = 'Time Left: {:02d}:{:02d}'.format(mins, secs) 
                             print(timer, end="\r") # overwrite previous line 
                             time.sleep(1)
                             t -= 1 
+                        print("Pratibha: Break Time!!")
                         speak("Break Time!!")
 
                         t = 5*60 
                         while t: 
                             mins = t // 60 
                             secs = t % 60
-                            timer = '{:02d}:{:02d}'.format(mins, secs) 
+                            timer = 'Time Left: {:02d}:{:02d}'.format(mins, secs) 
                             print(timer, end="\r") # overwrite previous line 
                             time.sleep(1)
                             t -= 1 
-                        speak("Work Time!!")
+                        print("Pratibha: Back to work!!")
+                        speak("Back to work!!")
                 pomodoror()           
                 
         if "exit" in query:
             speak("Bye")
-            exit()            
+            exit()          
