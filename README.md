@@ -8,8 +8,6 @@ A simple voice operated python assistant for simple tasks and time-pass.
 * [PyAudio](https://pypi.org/project/PyAudio/)
 * [Wolfram Alpha](https://pypi.org/project/wolframalpha/)
 * [Wikipedia](https://pypi.org/project/wikipedia/)
-* [Requests](https://pypi.org/project/requests/)
-
 
 ## for windows
 * clone my repo
